@@ -1,0 +1,20 @@
+﻿<Window x:Class="GUI3_Workshop.TrooperEditor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI3_Workshop"
+        mc:Ignorable="d"
+        Title="TrooperEditor" Height="300" Width="350">
+    <Grid>
+        <StackPanel x:Name="editor">
+            <Label Content="Power" Background="LightPink"  Height="40"  VerticalContentAlignment="Center"/>
+            <TextBox Text="{Binding Power}" Height="40"/>
+            <Label Content="Vitality" Background="LightPink" Height="40"  VerticalContentAlignment="Center"/>
+            <TextBox Text="{Binding Vitality}" Height="40"/>
+            <Label Content="Cost" Background="LightPink" Height="40"  VerticalContentAlignment="Center"/>
+            <TextBox Text="{Binding Cost}" Height="40"/>
+            <Button Content="Save" Click="Button_Click" Height="40"/>
+        </StackPanel>
+    </Grid>
+</Window>

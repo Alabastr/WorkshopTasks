@@ -1,0 +1,17 @@
+﻿<Window x:Class="Workshop_4.JobEditor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Workshop_4"
+        mc:Ignorable="d"
+        Title="JobEditor" Height="220" Width="320">
+    <StackPanel x:Name="stack">
+        <Label Content="{Binding Actual.Name}" Padding="10" Background="Gray" HorizontalContentAlignment="Center" FontSize="20" />
+        <Label Content="Price" Padding="10" Background="LightBlue" />
+        <TextBox Text="{Binding Actual.Price, UpdateSourceTrigger=Explicit}" Padding="10"/>
+        <Label Content="per" Padding="10" Background="LightBlue" />
+        <Label Content="{Binding Actual.Unit}" Padding="10" Background="LightBlue" />
+        <Button Content="Save" Padding="10" Click="Button_Click"  />
+    </StackPanel>
+</Window>

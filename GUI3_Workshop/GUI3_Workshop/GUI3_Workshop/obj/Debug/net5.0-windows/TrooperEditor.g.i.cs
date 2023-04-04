@@ -61,7 +61,7 @@ namespace GUI3_Workshop {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GUI3_Workshop;component/troopereditor.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GUI3_Workshop;V1.0.0.0;component/troopereditor.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\TrooperEditor.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngryBirds", "AngryBirds\AngryBirds.csproj", "{FB196168-485F-4964-80D3-08E357FA6BCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB196168-485F-4964-80D3-08E357FA6BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB196168-485F-4964-80D3-08E357FA6BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB196168-485F-4964-80D3-08E357FA6BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB196168-485F-4964-80D3-08E357FA6BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F654BB75-B7F4-40F8-9172-F6A4E3251A16}
+	EndGlobalSection
+EndGlobal

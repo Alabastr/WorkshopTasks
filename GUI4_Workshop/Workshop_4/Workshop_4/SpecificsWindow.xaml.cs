@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Workshop_4.Models;
+using Workshop_4.ViewModels;
 
 namespace Workshop_4
 {
@@ -19,9 +21,29 @@ namespace Workshop_4
     /// </summary>
     public partial class SpecificsWindow : Window
     {
-        public SpecificsWindow()
+        public SpecificsWindow(Job job)
         {
             InitializeComponent();
+            var vm = new SpecificsWindowViewModel();
+            vm.Setup(job);
+            this.DataContext = vm;
+        }
+
+        private void Vm_EditedDone(object? sender, EventArgs e)
+        {
+            this.DialogResult = true;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            foreach (var item in stack.Children)
+            {
+                if (item is TextBox t)
+                {
+                    t.GetBindingExpression(TextBox.TextProperty).UpdateSource();
+                }
+            }
+            this.DialogResult = true;
         }
     }
 }

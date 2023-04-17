@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vrOW9PVymrFU+jzpbhb2YV7AnKAyeGwey4StL7BgvsqpeezJpuxkqJwJ9xBLzPcQ0Mm8peGXN3msIEKuNlyNwA==",
+  "dgSpecHash": "5JL6tcyp5iM8RsnaXTzzm+o3rj8lsl1JQSdBINJiwXYXC32NpjU81fN9Fz23phQQM0+NtCrrYV/3L2QI50UFcQ==",
   "success": true,
   "projectFilePath": "D:\\Github Repok\\WorkshopTasks\\GUI4_Workshop\\Workshop_4\\Workshop_4\\Workshop_4.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Alabaster\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Alabaster\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Alabaster\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512"
   ],
   "logs": []

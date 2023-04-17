@@ -1,0 +1,5 @@
+D:\Szemeszter feladatok\Prog feladatok\Independednt\AngryBirds.exe
+D:\Szemeszter feladatok\Prog feladatok\Independednt\AngryBirds.dll
+D:\Szemeszter feladatok\Prog feladatok\Independednt\AngryBirds.deps.json
+D:\Szemeszter feladatok\Prog feladatok\Independednt\AngryBirds.runtimeconfig.json
+D:\Szemeszter feladatok\Prog feladatok\Independednt\AngryBirds.pdb

@@ -8,5 +8,6 @@
         Title="AngryBirds" Height="700" Width="1400" Loaded="Window_Loaded" KeyDown="Window_KeyDown" SizeChanged="Window_SizeChanged" >
     <Grid x:Name="grid">
         <renderer:Display x:Name="display"/>
+        <TextBox HorizontalAlignment="Left" Margin="10,459,0,0" Background="Transparent" FontStyle="Italic" BorderBrush="Transparent" FontSize="20" TextWrapping="Wrap" Text="Press Space to shoot" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
     </Grid>
 </Window>
